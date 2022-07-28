@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 300px;
+    overflow-x: hidden;
+}
+.invBtn{
+    position: absolute;
+    top: 14%;
+    left:86%;
+}
+
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+.card{
+    /* margin : "35px" */
+}
+.container > h1{
+    margin : 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container > h1::after{
+    content: '';
+    position: absolute;
+    width: 400px;
+    background-color: tomato;
+    height: 4px;
+    left: 35%;
+    bottom: -12%;
+    border-radius: 10px;
+
+}

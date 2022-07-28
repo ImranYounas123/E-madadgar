@@ -1,0 +1,94 @@
+#footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+.left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left > h4{
+    margin-bottom: 1rem;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left > p {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left > img{
+    width: 10vmax;
+    margin: 0.25vmax;
+    cursor: pointer;
+}
+.center{
+    width: 60%;
+    text-align: center;
+}
+.center > h1{
+    font-size: 4vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: springgreen;
+    margin-bottom: 1rem;
+}
+.center > p{
+    max-width: 60%;
+    margin: 1vmax auto; /* horizontal Auto */ 
+}
+.center > a {
+    color: #fff;
+    text-decoration: none;
+}
+.right input[type="text"]{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #d9d9d9;
+    background: #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222222;
+  }
+  .right input[type="submit"]{
+    height: 42px;
+    width: 100%;
+    font-size: 18px;
+    color: #d9d9d9;
+    background: #eb2f06;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 2px solid #eb2f06;
+    transition: all 0.3s ease-in-out;
+  }
+  .right input[type="submit"]:hover{
+    background: none;
+    color:  #eb2f06;
+  }
+  .media-icons span{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+  }
+  .media-icons span:hover{
+    border-color: #eb2f06;
+  }

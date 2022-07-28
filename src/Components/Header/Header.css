@@ -1,0 +1,26 @@
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   left: 24%;
+}
+ul li .logo{
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+.btn{
+background-color: green;
+padding: 6px 7px;  
+color: #fff;
+border: none;
+outline: none;
+font-size: 16px;
+font-weight: bold;
+  transition: all 0.5s;
+ }
+ .btn:hover{
+    background-color:tomato ;
+ }

@@ -1,0 +1,44 @@
+.card-container{
+  width: 100%;
+  height: 700px;
+}
+
+  .card {
+    /* opacity: 0.8; */
+    /* filter: alpha(opacity=60); */
+  }
+
+.card-deck{
+  width: 300px;
+  height: 600px;
+  /* border: 1px solid; */
+}
+
+  .card-title {
+    margin-top: -60px;
+    font-weight:bold;
+    text-align: center;
+  }
+  .card-text {
+    text-align: justify;
+  }
+  
+
+  .modal-footer {
+    background-image: linear-gradient(white,#e6e7dd);
+  }
+  #right-panel-link {
+    position: absolute;
+    right: 22%;
+    bottom: 5%;
+    background-color: tomato;
+    /* color: white; */
+    font-size: 16px;
+    padding: 12px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .sep {
+    height: 25px;
+  }
